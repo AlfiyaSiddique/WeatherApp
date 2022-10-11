@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mausam</title>
+
+    <!-- CSS stylesheets -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+<!-- Search section -->
+    <section id="search">
+        <h1>Weather Report</h1>
+        <p>Mausam ka haal chaal</p>
+        <form action="/" method="post">
+            <label for="city">
+                <input type="text" name="cityName" placeholder="Enter a City Name" id="city">
+                <select name="units" id="unit" >
+                    <option value="unit">Unit</option>
+                    <option value="standard">Standard</option>
+                    <option value="metric">Metric</option>
+                    <option value="imperial">Imperial</option>
+                </select>
+            </label>
+        </form>
+    </section>
+
+    <!-- Data Display Section -->
+    <section id="datasec">
+        <h2>Weather Data</h2>
+
+        <div id="data">
+
+            <div class="box">
+                <h3>City Name</h3>
+                <p class="info">?</p>
+            </div>
+
+            <div class="box">
+                <h3>Temperature </h3>
+                <p class="info">?</p>
+            </div>
+
+            <div class="box">
+                <h3>Weather Description</h3>
+                <p class="info">?</p>
+            </div>
+
+            <div class="box">
+                <h3>Feels Like </h3>
+                <p class="info">?</p>
+            </div>
+
+            <div class="box">
+                <h3>Minimum Temperature</h3>
+                <p class="info">?</p>
+            </div>
+
+            <div class="box">
+                <h3>Maximum Temperature </h3>
+                <p class="info">?</p>
+            </div>
+
+            <div class="box">
+                <h3>Pressure </h3>
+                <p class="info">?</p>
+            </div>
+
+            <div class="box">
+                <h3>Humidity </h3>
+                <p class="info">?</p>
+            </div>
+
+            <div class="box">
+                <h3>Wind Speed </h3>
+                <p class="info">?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+            <p>Created By @AlfiyaSiddique</p>
+            
+            <p>Visit here to see my other projects</p>
+            <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img
+                        alt="Creative Commons License" style="border-width:0"
+                        src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons
+                    Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</p>
+            <p><a
+                href="https://alfiyasiddique.github.io/Personal-Portfolio-FCC/#projects">https://alfiyasiddique.github.io/Personal-Portfolio-FCC/#projects</a>
+            </p>
+    </footer>
+
+    <!-- Pop Section -->
+    <section id="pop">
+        <p>Enter a City Name , Choose a Measuring unit and press Enter to get Weather Data</p>
+    </section>
+
+    <script src="Index.js"></script>
+    <script src="../config.js"></script>
+</body>
+
+</html>

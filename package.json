@@ -1,0 +1,20 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "A web App for weather determination of any city",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alfiya Siddique",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "config": "^3.3.7",
+    "connect-livereload": "^0.6.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.3",
+    "livereload": "^0.9.3",
+    "parser": "^0.1.4"
+  }
+}
